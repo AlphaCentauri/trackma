@@ -366,6 +366,8 @@ class Engine:
         """
         return self.data_handler.get().values()
 
+    # TODO: Add anime-relations handling here
+    #       Call from _open_folder() in gtk/window.py
     def get_show_info(self, showid=None, title=None, filename=None):
         """
         Returns the show dictionary for the specified **showid**.
